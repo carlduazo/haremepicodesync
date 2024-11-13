@@ -1,9 +1,9 @@
 {
-    "key": "group_672a204416fec",
-    "title": "Block: Brand social media",
+    "key": "group_67348b9204262",
+    "title": "Block: Brand locations (copy)",
     "fields": [
         {
-            "key": "field_672a204419181",
+            "key": "field_67348b9208015",
             "label": "Background color",
             "name": "background_color",
             "aria-label": "",
@@ -20,7 +20,7 @@
                 "white": "White",
                 "transparent": "Transparent"
             },
-            "default_value": "transparent",
+            "default_value": "white",
             "return_format": "value",
             "multiple": 0,
             "allow_null": 0,
@@ -30,7 +30,7 @@
             "placeholder": ""
         },
         {
-            "key": "field_672a20441918a",
+            "key": "field_67348b920801b",
             "label": "Supertitle",
             "name": "supertitle",
             "aria-label": "",
@@ -51,7 +51,7 @@
             "append": ""
         },
         {
-            "key": "field_672a204419190",
+            "key": "field_67348b920801f",
             "label": "Title",
             "name": "title",
             "aria-label": "",
@@ -72,7 +72,7 @@
             "append": ""
         },
         {
-            "key": "field_672a204419192",
+            "key": "field_67348b9208022",
             "label": "Text",
             "name": "text",
             "aria-label": "",
@@ -93,7 +93,7 @@
             "delay": 0
         },
         {
-            "key": "field_672a204419195",
+            "key": "field_67348b9208025",
             "label": "CTA",
             "name": "cta",
             "aria-label": "",
@@ -110,8 +110,8 @@
             "allow_in_bindings": 0
         },
         {
-            "key": "field_672a204419198",
-            "label": "CTA style",
+            "key": "field_67348b9208028",
+            "label": "CTA styles",
             "name": "cta_style",
             "aria-label": "",
             "type": "select",
@@ -137,6 +137,34 @@
             "ui": 0,
             "ajax": 0,
             "placeholder": ""
+        },
+        {
+            "key": "field_67348b9bc55e2",
+            "label": "Slider images",
+            "name": "slider_images",
+            "aria-label": "",
+            "type": "gallery",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "library": "all",
+            "min": "",
+            "max": "",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "insert": "append",
+            "preview_size": "medium"
         }
     ],
     "location": [
@@ -144,7 +172,7 @@
             {
                 "param": "block",
                 "operator": "==",
-                "value": "epic\/brand-social-media"
+                "value": "epic\/slider-images"
             }
         ]
     ],
@@ -157,5 +185,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1731492661
+    "modified": 1731496929
 }
